@@ -11,6 +11,6 @@ app.use('/', function(req,res) {
   res.render('index.ejs');
 })
 
-app.listen(PORT, 'localhost', function(){
+app.listen(PORT, function(){
     console.log('Server started successfully. PORT @ ' + PORT)
 })
