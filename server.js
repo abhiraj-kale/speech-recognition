@@ -16,5 +16,5 @@ app.get('/download',function (req,res) {
  })
 
 app.listen(PORT, 'localhost', function(){
-    console.log('Server started successfully. PORT @ ' + P5001ORT)
+    console.log('Server started successfully. PORT @ ' + PORT)
 })
