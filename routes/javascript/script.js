@@ -2,7 +2,7 @@ const btn = document.getElementById('talk');
 const content = document.getElementById('content');
 
 const greetings = [
-    'I\'m chilling...how are you bro?',
+    'I\'m chilling.How are you bro?',
     'I am super fine!...How is your quarantine going? ',
     'Nothing much...how\'s your day been?',
     'Doing good...how about you?'
