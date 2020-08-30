@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 5001;
 var express = require('express');
 var app = express();
 const path = require('path')
@@ -14,6 +15,6 @@ app.get('/download',function (req,res) {
    res.location('back')
  })
 
-app.listen(process.env.PORT || 5001, 'localhost', function(){
-    console.log('Server started successfully. PORT @ ' + PORT)
+app.listen(PORT, 'localhost', function(){
+    console.log('Server started successfully. PORT @ ' + P5001ORT)
 })
